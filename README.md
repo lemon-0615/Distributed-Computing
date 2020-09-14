@@ -22,3 +22,7 @@ LD_PRELOAD=/full/path/to/libruntime.so
 
 ### Run:
 ` ./pa2 –p 2 10 20 `.
+
+
+## PA3
+Same as PA2. Instead of Physical time here is used Lamport time.
