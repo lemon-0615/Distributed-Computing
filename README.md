@@ -26,3 +26,9 @@ LD_PRELOAD=/full/path/to/libruntime.so
 
 ## PA3
 Same as PA2. Instead of Physical time here is used Lamport time.
+
+## PA4
+Working with critical area as child process useful work.
+
+### Run:
+`./pa1 -p X [--mutexl]`, where <b>X</b> - count of child processes, <b>--mutexl</b> - tells program to use Lamport mutex algorithm in critical area
